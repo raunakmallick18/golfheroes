@@ -19,7 +19,7 @@ const ADMIN_CREDS = { email: "admin@golfheroes.com", password: "admin123" };
 
 function seedUsers() {
   return [
-    { id: "u1", name: "Jamie O'Brien", email: "jamie@test.com", password: "test123", plan: "monthly", active: true, charity: "c1", charityPct: 10, scores: [
+    { id: "u1", name: "Raunak Mallick", email: "raunak.m@test.com", password: "test123", plan: "monthly", active: true, charity: "c1", charityPct: 10, scores: [
       { id: "s1", score: 32, date: "2024-03-10" }, { id: "s2", score: 28, date: "2024-03-17" },
       { id: "s3", score: 35, date: "2024-03-24" }, { id: "s4", score: 30, date: "2024-03-31" },
       { id: "s5", score: 33, date: "2024-04-07" },
@@ -328,7 +328,7 @@ function LoginModal({ users, onLogin, onClose, toast }) {
       {err && <div style={{ color: "#f87171", fontSize: 13, marginBottom: 12 }}>{err}</div>}
       <button className="btn btn-primary" style={{ width: "100%", justifyContent: "center" }} onClick={handle}>Sign In</button>
       <div style={{ textAlign: "center", marginTop: 16, fontSize: 13, color: "var(--muted)" }}>
-        Test: jamie@test.com / test123 · Admin: admin@golfheroes.com / admin123
+        Test: raunak.m@test.com / test123 · Admin: admin@golfheroes.com / admin123
       </div>
     </Modal>
   );
