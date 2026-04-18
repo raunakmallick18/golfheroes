@@ -6,7 +6,7 @@
  
 ## 🌐 Live Demo
  
-🔗 [golfheroes.vercel.app](https://golfheroes.vercel.app) *(replace with your Vercel URL)*
+🔗 [golfheroes.vercel.app](https://golfheroes-omega.vercel.app/) 
  
 ---
  
